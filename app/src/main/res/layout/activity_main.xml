@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="330dp"
+        android:layout_height="126dp"
+        android:layout_margin="25dp"
+        android:fontFamily="cursive"
+        android:text="Student Information"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#00E676"
+        android:text="Add Result"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35000002" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#FF9100"
+        android:text="Update Result"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#E284F2"
+        android:text="Search Result"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#F85F2F"
+        android:text="Delete Result"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/display"
+        app:layout_constraintVertical_bias="0.16000003" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

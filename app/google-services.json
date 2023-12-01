@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "975279333265",
+    "firebase_url": "https://student-info-89aae-default-rtdb.firebaseio.com",
+    "project_id": "student-info-89aae",
+    "storage_bucket": "student-info-89aae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975279333265:android:778ac4273780ba58a6c430",
+        "android_client_info": {
+          "package_name": "com.srikar.studentinfo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2HL98415vED9O-k5tUgkyrHvJ5zJ0cV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
