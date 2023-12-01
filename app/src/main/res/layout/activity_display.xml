@@ -29,6 +29,7 @@
         android:paddingLeft="20dp"
         android:inputType="text"
         android:maxLines="1"
+        android:textColor="@color/black"
         android:background="@drawable/edit_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,27 +82,27 @@
             android:text=""
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="30dp"/>
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/total"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="130dp"
             android:text=""
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/avg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="180dp"
             android:text=""
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="30sp"/>
 
     </androidx.cardview.widget.CardView>
 

@@ -95,18 +95,18 @@
         android:layout_margin="15dp"
         android:background="@drawable/btn_bg"
         android:backgroundTint="#F85F2F"
+        android:drawableRight="@drawable/baseline_delete_24"
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
         android:text="Delete Result"
+        android:textAlignment="textStart"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textAlignment="textStart"
-        android:paddingLeft="25dp"
-        android:drawableRight="@drawable/baseline_delete_24"
-        android:paddingRight="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/display"
-        app:layout_constraintVertical_bias="0.16000003" />
+        app:layout_constraintVertical_bias="0.120000005" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
